@@ -25,7 +25,7 @@ temp = temp->next;
 /**
  * swap_node - swap nodes
  * @temp: the node
- * @list: pointer to head of list
+ * @list: pointer to head of linked list
  * Return: pointer to node
  */
 listint_t *swap_node(listint_t *temp, listint_t **list)
