@@ -5,7 +5,7 @@
  */
 void insertion_sort_list(listint_t **list)
 {
-listint_t temp;
+listint_t *temp;
 
 if (list == NULL || (*list)->next == NULL)
 return;
@@ -13,7 +13,7 @@ return;
 temp = (*list)->next;
 while (temp)
 {
-while ((temp->prev) && (temp->prev->n >  temp->n))
+while ((temp->prev) && (temp->prev->n > temp->n))
 {
 temp = swap_node(temp, list);
 print_list(*list);
