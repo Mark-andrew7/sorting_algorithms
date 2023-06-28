@@ -2,7 +2,7 @@
 /**
  * selection_sort - sorts an array of ints
  * @array: pointer to ints
- * @size size of the array
+ * @size: size of the array
  */
 void selection_sort(int *array, size_t size)
 {
